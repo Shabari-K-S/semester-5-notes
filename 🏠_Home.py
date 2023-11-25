@@ -1,5 +1,7 @@
 import streamlit as st 
 
+st. set_page_config(layout="wide")
+
 st.title("Semester 5 Notes")
 st.write("This is a collection of notes for semester 5")
 
