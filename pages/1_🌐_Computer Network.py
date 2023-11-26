@@ -86,7 +86,7 @@ c1,c2 = st.columns([7,3])
 title = "Unit-1"
 # Sidebar to display video list
 with c2:
-    selected_video_index = option_menu(title, links,default_index=1)
+    selected_video_index = option_menu(title, links,default_index=0)
 
 with c1:
     st.markdown('### **'+selected_video_index+'**')
