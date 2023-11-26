@@ -83,7 +83,7 @@ links = list(video_urls.keys())
 
 c1,c2 = st.columns([7,3])
 
-title = "Unit-1"
+title = "Computer Networks"
 # Sidebar to display video list
 with c2:
     selected_video_index = option_menu(title, links,default_index=0)
