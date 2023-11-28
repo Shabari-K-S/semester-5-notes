@@ -81,24 +81,54 @@ video_urls = {
 
 links = list(video_urls.keys())
 
-c1,c2 = st.columns([7,3])
-
-title = "Computer Networks"
-# Sidebar to display video list
-with c2:
-    selected_video_index = option_menu(title, links,default_index=0)
-
-with c1:
-    st.markdown('### **'+selected_video_index+'**')
-    st.video(video_urls[selected_video_index])
+tab1, tab2 = st.tabs(["VIdeos", "Notes"])
 
 
-js = '''
-<script>
-    var body = window.parent.document.querySelector(".menu");
-    console.log(body);
-    body.scrollTop = 0;
-</script>
-'''
 
-st.components.v1.html(js)
+with tab1:
+    c1,c2 = st.columns([7,3])
+
+    title = "Computer Networks"
+    # Sidebar to display video list
+    with c2:
+        selected_video_index = option_menu(title, links,default_index=0)
+
+    with c1:
+        st.markdown('### **'+selected_video_index+'**')
+        st.video(video_urls[selected_video_index])
+
+
+    js = '''
+    <script>
+        var body = window.parent.document.querySelector(".menu");
+        console.log(body);
+        body.scrollTop = 0;
+    </script>
+    '''
+
+    st.components.v1.html(js)
+
+with tab2:
+    st.markdown("""
+## Unit - 1:
+
+[Important Notes](https://drive.google.com/file/d/13C71SwFUA1MFK8SMxUKbUr1yCyGHMps5/view?usp=sharing) 
+                
+## Unit - 2:
+
+[Important Notes](https://drive.google.com/file/d/1dvOriUSdBxI8OYXBezmjgiDBIOflEsNl/view?usp=drive_link)
+                
+## Unit - 3:
+                
+[Important Notes](https://drive.google.com/file/d/1xea7t_xTrmRxorY3gAnxxK3B9UA8UDDH/view?usp=drive_link)
+                
+
+## Unit - 4:
+                
+[Important Notes](https://drive.google.com/file/d/1y_n_h7Zx6uYWAmRaNFr8knEorGtnjcgA/view?usp=drive_link)
+            
+
+## Unit - 5:
+                
+[Important Notes](https://drive.google.com/file/d/1cwM26W2nM8h78Io2EzNGY63RQFTfZJa9/view?usp=drive_link)
+""")
