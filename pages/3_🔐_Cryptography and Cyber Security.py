@@ -72,6 +72,7 @@ video_urls = {
     "Block Cipher Mode of Operation (Solved Problem)":"https://www.youtube.com/watch?v=tVmEFI_R4bA&list=PLBlnK6fEyqRgJU3EsOYDTW7m6SUmW6kII&index=77&pp=iAQB",
     "Pesudorandom Number Generator":"https://www.youtube.com/watch?v=q2XVhTWJ-Oo&list=PLBlnK6fEyqRgJU3EsOYDTW7m6SUmW6kII&index=78&pp=iAQB",
     "Golomb’s Randomness Postulates":"https://www.youtube.com/watch?v=6agTBs3c89o&list=PLBlnK6fEyqRgJU3EsOYDTW7m6SUmW6kII&index=79&pp=iAQB",
+    
     # Add more video URLs as needed
 }
 
