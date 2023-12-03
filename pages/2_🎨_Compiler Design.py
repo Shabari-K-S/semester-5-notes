@@ -37,7 +37,19 @@ video_urls = {
     "Elimination of Left Recurssion":"https://www.youtube.com/watch?v=PFey5FpKlFM&list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q&index=25&pp=iAQB",
     "Non-Deterministic CFG":"https://www.youtube.com/watch?v=BlVzfIghVw8&list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q&index=26&pp=iAQB",
     "Non-Deterministic CFG (Solved Problem)":"https://www.youtube.com/watch?v=s9N3_7ADZno&list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q&index=27&pp=iAQB",
-    
+    "Parser":"https://www.youtube.com/watch?v=OIKL6wFjFOo&list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q&index=29&pp=iAQB",
+    "Top Down Parser -  Recursive Decent Parser":"https://www.youtube.com/watch?v=iddRD8tJi44&list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q&index=30&pp=iAQB",
+    "Top Down Parser - LL(1) Parser":"https://www.youtube.com/watch?v=v_wvcuJ6mGY&list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q&index=31&pp=iAQB",
+    "First and Follow":"https://www.youtube.com/watch?v=oOCromcWnfc&list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q&index=32&pp=iAQB",
+    "First and Follow (Solved Problem)":"https://www.youtube.com/watch?v=jv4dwxukVvU&list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q&index=33&pp=iAQB",
+    "LL(1) Parser Table":"https://www.youtube.com/watch?v=DT-cbznw9aY&list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q&index=35&pp=iAQB",
+    "LL(1) Parsing":"https://www.youtube.com/watch?v=clkHOgZUGWU&list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q&index=36&pp=iAQB",
+    "LL(1) Parsing (Solved Problem)":"https://www.youtube.com/watch?v=5P7ehgZ6EIs&list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q&index=37&pp=iAQB",
+    "Bottom Up Parser":"https://www.youtube.com/watch?v=kQMIQQmmkj8&list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q&index=39&pp=iAQB",
+    "Semantic Analysis":"https://www.youtube.com/watch?v=0i8q9Gubu6Q&list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q&index=40&pp=iAQB",
+    "Intermediate COde Generator":"https://www.youtube.com/watch?v=SiYxGP0O68s&list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q&index=41&pp=iAQB",
+    "Runtime Environment and Code Optimization":"https://www.youtube.com/watch?v=SaKfQX_tQrs&list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q&index=42&pp=iAQB",
+
     # Add more video URLs as needed
 }
 
