@@ -56,7 +56,7 @@ video_urls = {
     "Checkpoint Background and Definition":"https://www.youtube.com/watch?v=bfafK2t4xG0&list=PLR4Rlu17MDY6RhDmiXVCCu6qII_reYviB&index=46&pp=iAQB",
     "Type of Messages":"https://www.youtube.com/watch?v=cKOAa_CUgS8&list=PLR4Rlu17MDY6RhDmiXVCCu6qII_reYviB&index=47&pp=iAQB",
     "Issues in Failure Recovery":"https://www.youtube.com/watch?v=rvPp90o9Krw&list=PLR4Rlu17MDY6RhDmiXVCCu6qII_reYviB&index=48&pp=iAQB",
-    "Checkpoint based Recovery - 1":"https://www.youtube.com/watch?v=fWp4AVla2cI&list=PLR4Rlu17MDY6RhDmiXVCCu6qII_reYviB&index=49&pp=iAQB,
+    "Checkpoint based Recovery - 1":"https://www.youtube.com/watch?v=fWp4AVla2cI&list=PLR4Rlu17MDY6RhDmiXVCCu6qII_reYviB&index=49&pp=iAQB",
     "Checkpoint based Recovery - 2":"https://www.youtube.com/watch?v=Ft93YGLNg_A&list=PLR4Rlu17MDY6RhDmiXVCCu6qII_reYviB&index=51&pp=iAQB",
     "Checkpoint based Recovery - 3":"https://www.youtube.com/watch?v=1M75AYwepjU&list=PLR4Rlu17MDY6RhDmiXVCCu6qII_reYviB&index=50&pp=iAQB",
     "Coordinate Checkpoint algorithm":"https://www.youtube.com/watch?v=Anz_52xBhjc&list=PLR4Rlu17MDY6RhDmiXVCCu6qII_reYviB&index=52&pp=iAQB",
