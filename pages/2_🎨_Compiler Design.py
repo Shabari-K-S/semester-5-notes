@@ -56,55 +56,24 @@ video_urls = {
 
 links = list(video_urls.keys())
 
-tab1, tab2 = st.tabs(["VIdeos", "Notes"])
+c1,c2 = st.columns([7,3])
+
+title = "Computer Networks"
+# Sidebar to display video list
+with c2:
+    selected_video_index = option_menu(title, links,default_index=0)
+
+with c1:
+    st.markdown('### **'+selected_video_index+'**')
+    st.video(video_urls[selected_video_index])
 
 
+js = '''
+<script>
+    var body = window.parent.document.querySelector(".menu");
+    console.log(body);
+    body.scrollTop = 0;
+</script>
+'''
 
-with tab1:
-    c1,c2 = st.columns([7,3])
-
-    title = "Computer Networks"
-    # Sidebar to display video list
-    with c2:
-        selected_video_index = option_menu(title, links,default_index=0)
-
-    with c1:
-        st.markdown('### **'+selected_video_index+'**')
-        st.video(video_urls[selected_video_index])
-
-
-    js = '''
-    <script>
-        var body = window.parent.document.querySelector(".menu");
-        console.log(body);
-        body.scrollTop = 0;
-    </script>
-    '''
-
-    st.components.v1.html(js)
-
-with tab2:
-    st.markdown("""
-## Unit - 1:
-Updated soon...
-
-                
-## Unit - 2:
-Updated soon...
-
-                
-## Unit - 3:
-Updated soon...
-           
-                
-
-## Unit - 4:
-Updated soon...
-       
-
-            
-
-## Unit - 5:
-                
-Updated soon...
-""")
+st.components.v1.html(js)
