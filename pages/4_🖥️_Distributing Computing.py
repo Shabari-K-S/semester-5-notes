@@ -205,7 +205,7 @@ with tab2:
    - **Data Redundancy:** Cloud storage often includes data replication for enhanced reliability.`
 ---                
 ### Part - B 
-st.subheader("Unit - 1
+Unit - 1
 ---
 ##### 1. **Explain in detail about the relation to computer system components and interaction of the software components at each processor with neat sketch.**
 
