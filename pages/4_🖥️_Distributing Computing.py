@@ -780,7 +780,7 @@ This sketch and explanation illustrate the intricate interaction between hardwar
 
    The Three-Phase Commit protocol assumes a network with bounded delay and nodes with bounded response times. It requires at least three round trips to complete, needing a minimum of three round trip times (RTTs)
 
-   However, it's important to note that the Three-Phase Commit protocol is not without its drawbacks. For instance, in most practical systems with unbounded network delay and process pauses, it cannot guarantee atomicity. It also requires at least three round trips to complete, which can potentially result in a long latency to complete each transaction [Source 0](https://en.wikipedia.org/wiki/Three-phase_commit_protocol).
+   However, it's important to note that the Three-Phase Commit protocol is not without its drawbacks. For instance, in most practical systems with unbounded network delay and process pauses, it cannot guarantee atomicity. It also requires at least three round trips to complete, which can potentially result in a long latency to complete each transaction
    """)
 
    st.markdown("""
