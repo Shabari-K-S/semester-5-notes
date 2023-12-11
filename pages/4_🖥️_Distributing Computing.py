@@ -758,9 +758,29 @@ This sketch and explanation illustrate the intricate interaction between hardwar
 
    ---
 
-   ##### 3. **Illustrate the three phase algorithm for the figure given below. Here, A and B multicast to a set of destinations and C and D are the common destinations for both multicasts**
+   ##### 3. **Three Phase ALgorithm:**
 
-   There is no same figure in the question paper. So, I can't answer this question.
+   The Three-Phase Commit protocol is a distributed algorithm used in computer networking and databases to allow all nodes in a distributed system to agree on committing a transaction. It is a more failure-resilient refinement of the Two-Phase Commit protocol (2PC) [Source 0](https://en.wikipedia.org/wiki/Three-phase_commit_protocol).
+
+   The Three-Phase Commit protocol is an extension of the Two-Phase Commit protocol, where the commit phase is split into two phases [Source 2](https://medium.com/@balrajasubbiah/consensus-two-phase-and-three-phase-commits-4e35c1a435ac):
+
+   1. **Prepare to commit**: After unanimously receiving a 'yes' in the first phase of 2PC, the coordinator asks all participants to prepare to commit. During this phase, all participants acquire locks, etc., but they don’t actually commit.
+
+   2. **Commit**: If the coordinator receives a 'yes' from all participants during the prepare to commit phase, then it asks all participants to commit.
+
+   The pre-commit phase introduced in the Three-Phase Commit protocol helps us to recover from the case when a participant failure or both coordinator and participant node failure during the commit phase [Source 2](https://medium.com/@balrajasubbiah/consensus-two-phase-and-three-phase-commits-4e35c1a435ac).
+
+   The Three-Phase Commit protocol works as follows [Source 4](https://people.cs.rutgers.edu/~pxk/417/notes/content/transactions.html):
+
+   1. **Request**: The coordinator sends a 'prepare to commit' message to the log and works on the transaction. When done, it waits for a 'prepare' message.
+
+   2. **Prepare**: The coordinator sends a 'prepare to commit' message and waits for a reply. When the transaction is ready to commit, it writes 'agree to commit' (or 'abort') to the log.
+
+   3. **Commit**: The coordinator writes a 'commit' message to the log and waits for a 'commit' message. It then releases all locks & resources, making database changes permanent.
+
+   The Three-Phase Commit protocol assumes a network with bounded delay and nodes with bounded response times. It requires at least three round trips to complete, needing a minimum of three round trip times (RTTs) [Source 0](https://en.wikipedia.org/wiki/Three-phase_commit_protocol).
+
+   However, it's important to note that the Three-Phase Commit protocol is not without its drawbacks. For instance, in most practical systems with unbounded network delay and process pauses, it cannot guarantee atomicity. It also requires at least three round trips to complete, which can potentially result in a long latency to complete each transaction [Source 0](https://en.wikipedia.org/wiki/Three-phase_commit_protocol).
    """)
 
    st.markdown("""
