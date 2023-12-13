@@ -171,6 +171,7 @@ Brainstorming is a collaborative and creative problem-solving technique that inv
 - **Quick Idea Generation:** Facilitates the rapid generation of a large number of ideas in a short period.
 
 By leveraging brainstorming in UI/UX design, teams can uncover innovative solutions, address challenges, and enhance the overall design process.
+
 ---
 """
 )
@@ -397,6 +398,8 @@ A style guide in UI/UX design is a comprehensive document that outlines the visu
    - Style guides help maintain and reinforce the brand identity, ensuring that design choices align with the organization's visual language.
 
 A style guide is an essential tool in UI/UX design, promoting efficiency, consistency, and collaboration throughout the design and development process.
+
+
 ---
 """
 )
@@ -580,6 +583,8 @@ User Experience (UX) in UI/UX (User Interface/User Experience) design is a broad
    - *Cross-platform Consistency:* Maintaining a consistent experience across various devices.
 
 In-depth research and staying updated on industry trends are crucial for UX professionals to create meaningful and effective designs that resonate with users.
+
+
 ---
 """
 )
@@ -841,6 +846,8 @@ An interaction pattern in UI/UX design refers to a recurring solution to a speci
    - By adhering to widely accepted interaction patterns, designers meet user expectations, reducing cognitive load and potential confusion.
 
 When designing digital interfaces, understanding and appropriately applying interaction patterns contribute to a more intuitive and user-friendly experience. Designers often tailor these patterns to suit the specific needs and branding of a product while maintaining a level of consistency that enhances usability.
+
+
 ---
 """
 )
