@@ -1447,7 +1447,7 @@ This MVC architecture separates concerns, making the code more modular, scalable
     """
   )
 
-  st.markdow(
+  st.markdown(
     """
     ---
     ### 2. angular,React, docker,direvtives 
